@@ -1,0 +1,50 @@
+body{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	padding: 20px;
+}
+h2{
+	margin: 0;
+}
+.main_frame{
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+	min-width: 600px;/*通过min-width设定一定的值，酱紫解决了Firefox浏览器窗口极端情况下的效果。*/
+}
+.left{
+	float: left;
+	padding: 20px;
+	width: 160px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.team_logo{
+	float: left;
+}
+.team_name{
+	width: 180px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+}
+.right{
+	float: right;
+	width: 120px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.members_logo{
+	margin: 20px;
+	display: block;
+	background: #fff;
+	border: 1px solid #999;
+}
+.middle{
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	background: #fff;
+	border: 1px solid #999;
+}

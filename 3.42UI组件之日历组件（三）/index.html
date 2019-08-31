@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mission3_42</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        <header>
+                <h1>
+                    任务四十二：UI组件之日历组件（三）
+                </h1>
+            </header>
+            <section>
+                <label for="j_Date1"></label><input type="text" id="j_Date1" class="input">
+                <label for="j_Date2"></label><input type="text" id="j_Date2" class="input">
+            </section>
+            <script type="text/javascript" src="./index.js"></script>
+            <script type="text/javascript">
+                var myDate1 = new Calender({
+                    id: 'j_Date1',
+                    isSelect: true,
+                    callBack: function () {
+                        alert("选择日期成功！这是回调");
+                    },
+                    isRange: true
+                });
+                var myDate2 = new Calender({
+                    id: 'j_Date2',
+                    isSelect: true,
+                    callBack: function () {
+                        alert("选择日期成功！这是回调");
+                    },
+                    isRange: false
+                });
+            </script>
+</body>
+</html>
